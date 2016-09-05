@@ -13,7 +13,7 @@ main(int argc, char *argv[])
 	int contador = 0;
 	FILE *fp;
 
-	fp = fopen("numbers.txt", "r");
+	fp = fopen("second.txt", "r");
 
 	if (fp == NULL)
 		return -1;
