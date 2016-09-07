@@ -17,7 +17,6 @@ main(int argc, char *argv[])
 		fst = adjustValue(ch1);
 		snd = adjustValue(ch2);
 
-		//printf("%d %d :", fst, snd);
 		result += (fst & 8)*16 + (fst & 4)*16 + (fst & 2)*16 + (fst & 1)*16;
 		result += (snd & 8) + (snd & 4) + (snd & 2) + (snd & 1);
 
